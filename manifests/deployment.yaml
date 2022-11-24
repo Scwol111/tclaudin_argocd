@@ -30,7 +30,6 @@ spec:
   selector:
     app: will-playground
   ports:
-    - protocol: TCP
-      port: 8888
+    - port: 8888
       targetPort: 8888
   type: LoadBalancer
